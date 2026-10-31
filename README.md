@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **Archived: superseded by [govengers/auth](https://github.com/govengers/auth).** This repository gets no further updates, security fixes included. Released versions of `github.com/mxcd/oidc-fwd-auth` keep resolving through the Go module proxy, so existing builds keep working. Migrate with the guide: [oidc-fwd-auth to `oidc`](https://github.com/govengers/auth/blob/main/docs/migration.md#2-oidc-fwd-auth-library-v09x-to-oidc), and for the image [the forward-auth binaries to `ghcr.io/govengers/forwardauth`](https://github.com/govengers/auth/blob/main/docs/migration.md#4-the-forward-auth-binaries-to-forwardauth).
+
 # OIDC Forward Authentication
 
 A lightweight OIDC (OpenID Connect) forward authentication middleware for Traefik and other reverse proxies. This service handles authentication flows and can be used either as a standalone container or as a Go library integrated into your applications.
